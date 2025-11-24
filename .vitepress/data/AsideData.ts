@@ -64,7 +64,7 @@ export const Aside_Data: AsideItem = [
     rel: 'sponsored noreferrer'
   },
   // {
-  //   image: 'https://i.theojs.cn/logo/sds_logo.webp',
+  //   image: 'https://i.theojs.cn/logo/xdm_logo.webp',
   //   promo: '星岛梦开服全场 8 折',
   //   info1: '全场套餐 <span class="promo-text"> 8折: OPEN20</span>',
   //   link: 'https://itheo.top/xdm',
@@ -107,7 +107,7 @@ export const Aside_Data: AsideItem = [
   //   rel: 'sponsored noreferrer'
   // },
   {
-    image: { src: 'https://i.theojs.cn/logo/sds_logo.webp' },
+    image: { src: 'https://i.theojs.cn/logo/xdm_logo.webp' },
     promo: '星岛梦',
     link: 'https://itheo.top/xdm',
     rel: 'sponsored noreferrer'
