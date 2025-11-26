@@ -29,13 +29,13 @@ hero:
       text: 开始学习
       link: /山/博山篇
 
-    - theme: alt
-      text: AI占卜
-      link: https://ai.letfate.com  
-
-    - theme: alt author
-      text: ❤️ 赞助我们
+    - theme: sponsor
+      text: 赞助我们
       link: https://hefung.github.io/donate
+
+    - theme: alt
+      text: AI 占卜
+      link: https://ai.letfate.com        
 
 features:
   - title: 山

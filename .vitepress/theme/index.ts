@@ -9,8 +9,8 @@ import ShareButton from './ShareButton.vue'
 import notice from './notice.vue'
 import googleAnalytics from './googleAnalytics'
 import confetti from './confetti.vue' //五彩纸屑
-import {  Aside, Footer, Links, Notice, Underline, umamiAnalytics } from '@theojs/lumen'
-import { Aside_Data, Footer_Data } from '../data'
+import {  Aside,  Links, Notice, Underline, umamiAnalytics } from '@theojs/lumen'
+import { Aside_Data } from '../data'
 
 export default {
   extends: DefaultTheme,
