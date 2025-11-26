@@ -49,7 +49,7 @@ jobs:
           repository-name: hefung/xuanxue
           branch: gh-pages
           folder: ./.vitepress/dist
-          token: ${{ secrets.PUBLISH_DOCS }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           single-commit: true  
       
       - name: Commit project 🐱‍🏍
@@ -64,5 +64,5 @@ jobs:
         if: steps.verify_diff.outputs.changed == 'true'
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.PUBLISH_DOCS }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main 
