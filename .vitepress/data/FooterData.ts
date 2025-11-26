@@ -10,14 +10,14 @@ export const Footer_Data: FooterData = {
       links: [
         { name: 'hefung-bing', link: 'https://github.com/hefung/bing' },
         { name: '玄学宝典', link: 'https://github.com/hefung/xuanxue' },
-        { name: 'nav', link: 'https://github.com/xuanxue/nav/' }
+        { name: 'nav', link: 'https://github.com/hefung/nav/' }
       ]
     },
     {
       icon: 'heroicons:globe-alt-solid',
       title: '优质线路',
       links: [
-        { name: '青云梯', link: 'https://itheo.top/qyt', rel: 'sponsored noreferrer' },
+        { name: 'VIPTV影视', link: 'https://m.viptv.work', rel: 'sponsored noreferrer' },
       ]
     },
     {

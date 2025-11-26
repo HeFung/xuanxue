@@ -6,13 +6,34 @@ hero:
   name: 玄学宝典
   text: 山医命相卜
   tagline: 中华传统五术书籍传世经典著作
-  image: /logo.svg
+  image:
+    src: /logo.svg
+    alt: home
+    fetchpriority: high
+    width: 320
+    height: 320
+
+  Notice:
+    title: '<span class="promo-title">VIP · 影视导航</span>'
+    desc: |
+      · <span class="promo-text">专注 & 洞察 & 分享</span>
+      · <span class="promo-text">文明 & 遵纪 & 守法</span>
+      · 让您随时随地享受高质量的观影体验
+    date: '2039年7月31号23点59分'
+    dateText: '活动截止至'
+    link: https://vodtv.cn
+    rel:  sponsored noreferrer  
+
   actions:
     - theme: brand
       text: 开始学习
       link: /山/博山篇
 
-    - theme: brand
+    - theme: alt
+      text: AI占卜
+      link: https://ai.letfate.com  
+
+    - theme: alt author
       text: ❤️ 赞助我们
       link: https://hefung.github.io/donate
 
@@ -54,5 +75,5 @@ features:
     link: https://www.viptv.work
     linkText: 返回主站
 ---
-
+<Home />
 <confetti />

@@ -34,6 +34,7 @@ export default defineConfig({
     }
   },
 
+
   // vite配置
   vite: {
     // @ts-ignore: 使用 rolldown-vite 时类型不兼容 vite，但运行正常
@@ -112,6 +113,11 @@ export default defineConfig({
 
     //搜索
     search: { provider: 'algolia', options: search },
+
+    footer: {
+      message: '中华传统五术书籍传世经典著作 ',
+      copyright: 'Copyright © 2019 - Present HeFung'
+    },
 
     // 404
     notFound: {
