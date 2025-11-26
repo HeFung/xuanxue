@@ -1,8 +1,8 @@
 import type { UserConfig } from 'vitepress'
 
-const baseUrl = 'https://hefung.github.io'
-const imgUrl = 'https://hefung.github.io/logo.svg'
-const defaultOgImage = 'https://hefung.github.io/logo.svg'
+const baseUrl = 'https://hefung.github.io/xuanxue'
+const imgUrl = 'https://hefung.github.io//xuanxue/logo.svg'
+const defaultOgImage = 'https://hefung.github.io//xuanxue/logo.svg'
 
 export const transformPageData: UserConfig['transformPageData'] = (pageData) => {
   // head is an array

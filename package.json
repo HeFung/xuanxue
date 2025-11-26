@@ -1,4 +1,8 @@
 {
+  "name": "xuanxue",
+  "version": "1.2.5",
+  "description": "auto fetch bing daily pictures",
+  "type": "module",
   "scripts": {
     "build": "vitepress build",
     "commitlint": "commitlint --edit",
