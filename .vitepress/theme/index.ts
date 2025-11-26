@@ -1,15 +1,15 @@
-
-import type { EnhanceAppContext } from 'vitepress'
+import { h } from 'vue'
+import type { EnhanceAppContext ,Theme} from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
-import { h } from 'vue'
-import './all.css'
+
+import './styles/all.css'
 import imageViewer from 'vitepress-plugin-image-viewer'
-import ShareButton from './ShareButton.vue'
-import notice from './notice.vue'
-import googleAnalytics from './googleAnalytics'
-import confetti from './confetti.vue' //五彩纸屑
-import {  Aside,  Links, Notice, Underline, umamiAnalytics } from '@theojs/lumen'
+import ShareButton from './components/ShareButton.vue'
+import notice from './components/notice.vue'
+import googleAnalytics from './composables/googleAnalytics'
+import confetti from './components/confetti.vue' //五彩纸屑
+import {  Aside,  Links, Notice, Underline } from '@theojs/lumen'
 import { Aside_Data } from '../data'
 
 export default {
@@ -34,4 +34,4 @@ export default {
     const route = useRoute()
     imageViewer(route)
   }
-}
+} satisfies Theme
