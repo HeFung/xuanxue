@@ -43,6 +43,8 @@ export default defineConfig({
   // 源目录
   srcDir: 'src',
 
+  base: '/xuanxue/',
+
   // 上次更新时间戳
   lastUpdated: true,
 
