@@ -19,4 +19,4 @@
 
 本站所有资料均免费开放，若您认可本站的价值，欢迎赞助支持：
 
-![sponsor](https://hefung.github.io/donate)
+[Donate](https://hefung.github.io/donate)
