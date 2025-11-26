@@ -43,10 +43,10 @@ jobs:
         run: |
           git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT 
           
-      - name: Deploy to hefung/nav
+      - name: Deploy to hefung/xuanxue
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          repository-name: hefung/nav
+          repository-name: hefung/xuanxue
           branch: gh-pages
           folder: ./.vitepress/dist
           token: ${{ secrets.PUBLISH_DOCS }}
