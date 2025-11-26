@@ -9,7 +9,5 @@ export const nav: DefaultTheme.NavItem[] = [
   { text: '相', link: '相/冰鉴', activeMatch: '^/相/' },
   { text: '卜', link: '卜/毕法赋/毕法赋-上', activeMatch: '^/卜/' },
   { text: '灵宠', link: '灵宠/宠物篇', activeMatch: '^/灵宠/' },
-  { text: '相关经典', link: '相关经典/道德经', activeMatch: '^/相关经典/' },
-  { text: '提交书籍与纠错', link: '提交书籍与纠错', activeMatch: '^/提交书籍与纠错' },
-  { text: '服务推荐', link: 'https://doc.theojs.cn/serve/sharing/account-sharing-guide' }
+  { text: '相关经典', link: '相关经典/道德经', activeMatch: '^/相关经典/' }
 ]

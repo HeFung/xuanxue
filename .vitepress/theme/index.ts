@@ -1,29 +1,31 @@
-/// <reference types="vite/client" />
+
 import type { EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import { useRoute } from 'vitepress'
 import { h } from 'vue'
-import { Aside, Footer, Links, Notice, Underline, umamiAnalytics } from '@theojs/lumen'
-import '@theojs/lumen/style'
-import { Aside_Data, Footer_Data } from '../data'
+import './all.css'
+import imageViewer from 'vitepress-plugin-image-viewer'
+import ShareButton from './ShareButton.vue'
+import notice from './notice.vue'
+import googleAnalytics from './googleAnalytics'
+import confetti from './confetti.vue' //五彩纸屑
 
 export default {
   extends: DefaultTheme,
 
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'aside-ads-before': () => h(Aside, { Aside_Data }),
-      'home-hero-info-before': () => h(Notice),
-      'layout-bottom': () => h(Footer, { Footer_Data })
+      'aside-outline-before': () => h(ShareButton),
+      'layout-top': () => h(notice),
     })
   },
 
   enhanceApp: ({ app }: EnhanceAppContext) => {
-    umamiAnalytics({
-      id: import.meta.env.VITE_UMAMI_ID,
-      src: import.meta.env.VITE_UMAMI_SRC,
-      domains: 'xx.theojs.cn'
-    })
-    app.component('Home', Underline)
-    app.component('Links', Links)
+    googleAnalytics({ id: 'G-6QN23XNMXB' })
+    app.component('confetti' , confetti) // 五彩纸屑
+  },
+  setup() {
+    const route = useRoute()
+    imageViewer(route)
   }
 }

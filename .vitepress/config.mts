@@ -25,7 +25,7 @@ export default defineConfig({
   metaChunk: true,
 
   // 站点地图
-  sitemap: { hostname: 'https://xx.theojs.cn' },
+  sitemap: { hostname: 'https://hefung.github.io/xuanxue' },
 
   // vue配置
   vue: {
@@ -41,7 +41,7 @@ export default defineConfig({
   },
 
   // 源目录
-  srcDir: 'content',
+  srcDir: 'src',
 
   // 上次更新时间戳
   lastUpdated: true,
@@ -53,7 +53,7 @@ export default defineConfig({
   themeConfig: {
     // logo
     logo: {
-      src: 'https://i.theojs.cn/logo/avatar-mini.webp',
+      src: '/logo.svg',
       width: 24,
       height: 24,
       alt: 'avatar',
@@ -68,7 +68,7 @@ export default defineConfig({
 
     // GitHub编辑页面
     editLink: {
-      pattern: 'https://github.com/s-theo/xx.theojs.cn/edit/main/content/:path',
+      pattern: 'https://github.com/hefung/xuanxue/edit/main/content/:path',
       text: '为此页提供修改建议'
     },
 

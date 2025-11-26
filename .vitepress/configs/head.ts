@@ -2,11 +2,9 @@ import type { HeadConfig } from 'vitepress'
 
 export const head: HeadConfig[] = [
   // 图标优先加载
-  ['link', { rel: 'icon', href: 'https://i.theojs.cn/logo/avatar-mini.webp' }],
-  ['link', { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png', sizes: '96x96' }],
+  ['link', { rel: 'icon', href: '/logo.svg' }],
   ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
-  ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
   ['link', { rel: 'manifest', href: '/site.webmanifest' }],
 
   // 通用元信息

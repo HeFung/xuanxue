@@ -2,16 +2,15 @@ import type { FooterData } from '@theojs/lumen'
 
 export const Footer_Data: FooterData = {
   beian: { icp: { number: '鄂ICP备2024060426号' }, police: { number: '粤公网安备44200102445449号' }, showIcon: true },
-  author: { name: 'Theo', link: 'https://github.com/s-theo' },
+  author: { name: 'hefung', link: 'https://github.com/hefung' },
   group: [
     {
       icon: 'mdi:github',
       title: 'GitHub Source',
       links: [
-        { name: 'Theo-Docs', link: 'https://github.com/s-theo/Theo-Docs' },
-        { name: '玄学宝典', link: 'https://github.com/s-theo/xx.theojs.cn' },
-        { name: '常用配置文件', link: 'https://github.com/s-theo/dotfiles' },
-        { name: 'Lumen', link: 'https://github.com/s-theo/lumen' }
+        { name: 'hefung-bing', link: 'https://github.com/hefung/bing' },
+        { name: '玄学宝典', link: 'https://github.com/hefung/xuanxue' },
+        { name: 'nav', link: 'https://github.com/xuanxue/nav/' }
       ]
     },
     {
@@ -19,32 +18,26 @@ export const Footer_Data: FooterData = {
       title: '优质线路',
       links: [
         { name: '青云梯', link: 'https://itheo.top/qyt', rel: 'sponsored noreferrer' },
-        { name: 'Galaxy - 银河云', link: 'https://itheo.top/yhy', rel: 'sponsored noreferrer' },
-        { name: 'TNT Cloud', link: 'https://itheo.top/tnt', rel: 'sponsored noreferrer' },
-        { name: 'FlyingBird - 飞鸟机场', link: 'https://itheo.top/flyingbird', rel: 'sponsored noreferrer' },
-        { name: 'Totoro - 龙猫云', link: 'https://itheo.top/totoro', rel: 'sponsored noreferrer' },
-        { name: '小蜜蜂', link: 'https://itheo.top/bee', rel: 'sponsored noreferrer' },
-        { name: 'OKANC', link: 'https://itheo.top/okanc', rel: 'sponsored noreferrer' },
-        { name: '星岛梦', link: 'https://itheo.top/xdm', rel: 'sponsored noreferrer' }
       ]
     },
     {
       icon: 'heroicons:tv-solid',
-      title: '流媒体合租',
+      title: '流媒体',
       links: [
-        { name: '银河录像局', link: 'https://itheo.top/yh', rel: 'sponsored noreferrer' },
-        { name: '账号星球', link: 'https://itheo.top/acc', rel: 'sponsored noreferrer' },
-        { name: '奈飞小铺', link: 'https://itheo.top/ihezu', rel: 'sponsored noreferrer' },
-        { name: 'SMS-Activate', link: 'https://itheo.top/sms', rel: 'sponsored noreferrer' }
+      { name: '镜像1', link: 'https://m1.vodtv.cn', rel: 'sponsored noreferrer' },
+      { name: '镜像2', link: 'https://m2.vodtv.cn', rel: 'sponsored noreferrer' },
+      { name: '镜像3', link: 'https://m3.vodtv.cn', rel: 'sponsored noreferrer' },
+      { name: '镜像4', link: 'https://m4.vodtv.cn', rel: 'sponsored noreferrer' },
+      { name: '镜像5', link: 'https://m5.vodtv.cn', rel: 'sponsored noreferrer' },
+      { name: '镜像6', link: 'https://m6.vodtv.cn', rel: 'sponsored noreferrer' },
       ]
     },
     {
       icon: 'heroicons:link-16-solid',
       title: '相关链接',
       links: [
-        { name: 'Theo-Docs', link: 'https://doc.theojs.cn/' },
-        { name: 'VitePress', link: 'https://vitepress.dev/' },
-        { name: 'Lumen', link: 'https://lumen.theojs.cn/' }
+        { name: 'VODTV', link: 'https://vodtv.cn/' },
+        { name: 'VIPTV', link: 'https://viptv.work/' }
       ]
     }
   ]

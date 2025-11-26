@@ -1,0 +1,348 @@
+iconify-icon {
+    display: inline-block;
+    margin-right: -0.125em;
+    margin-bottom: -0.125rem;
+    font-size: 1em;
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+    --vp-button-brand-border: var(--c-yellow-1);
+    --vp-button-brand-text: var(--c-black);
+    --vp-button-brand-bg: var(--c-yellow-1);
+    --vp-button-brand-hover-border: var(--c-yellow-2);
+    --vp-button-brand-hover-text: var(--c-black-darker);
+    --vp-button-brand-hover-bg: var(--c-yellow-2);
+    --vp-button-brand-active-border: var(--c-yellow-soft-1);
+    --vp-button-brand-active-text: var(--c-black-darker);
+    --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+
+    --vp-button-sponsor-border: var(--vp-c-sponsor);
+    --vp-button-sponsor-text: var(--c-white-dark);
+    --vp-button-sponsor-bg: var(--vp-c-sponsor);
+    --vp-button-sponsor-hover-border: var(--vp-c-sponsor);
+    --vp-button-sponsor-hover-text: var(--c-white-dark);
+    --vp-button-sponsor-hover-bg: var(--vp-c-sponsor);
+    --vp-button-sponsor-active-border: var(--vp-c-sponsor);
+    --vp-button-sponsor-active-text: var(--c-black-dark);
+    --vp-button-sponsor-active-bg: var(--vp-c-sponsor);
+}
+
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+    --c-yellow-1: rgba(255, 216, 89, 1);
+    --c-yellow-2: rgba(247, 211, 54, 1);
+    --c-yellow-3: rgba(222, 201, 110, 1);
+    --c-yellow-soft-1: rgba(236, 183, 50, 1);
+    --c-yellow-soft-2: rgba(201, 149, 19, 0.3);
+
+    --c-white-dark: rgba(248, 248, 248, 1);
+    --c-black-darker: rgba(13, 18, 27, 1);
+    --c-black: rgba(17, 24, 39, 1);
+
+    --c-green-1: rgba(61, 214, 140, 1);
+    --c-green-2: rgba(48, 164, 108, 1);
+    --c-green-3: rgba(41, 132, 89, 1);
+    --c-green-soft: rgba(16, 185, 129, 0.16);
+
+    /* light theme is a bit different */
+    --vp-c-brand-1: var(--vp-c-green-1);
+    --vp-c-brand-2: var(--vp-c-green-2);
+    --vp-c-brand-3: var(--vp-c-green-3);
+    --vp-c-brand-soft: var(--vp-c-green-soft);
+
+    --c-text-dark-1: rgba(217, 230, 235, 1);
+    --c-text-light-1: rgba(44, 62, 80, 1);
+
+    --vp-c-brand-text: var(--c-text-light-1);
+    --c-bg-accent: var(--c-white-dark);
+}
+
+html.dark:root {
+    --vp-c-brand-1: var(--c-yellow-1);
+    --vp-c-brand-2: var(--c-yellow-2);
+    --vp-c-brand-3: var(--c-yellow-3);
+    --vp-c-brand-soft: var(--c-yellow-soft-2);
+
+    --vp-c-text-1: var(--c-text-dark-1);
+    --vp-c-brand-text: var(--c-text-light-1);
+    --c-bg-accent: var(--vp-c-bg-soft);
+
+    --vp-c-bg: var(--c-black);
+    --vp-c-bg-soft: rgba(22, 31, 50, 1);
+    --vp-c-bg-alt: rgba(13, 18, 27, 1);
+    --vp-c-bg-elv: var(--vp-c-bg-soft);
+}
+
+/**
+ * Component: doc-blocks
+ * -------------------------------------------------------------------------- */
+
+.vp-doc .custom-block {
+    border-left: 6px solid;
+    position: relative;
+}
+
+.vp-doc .custom-block.info .custom-block-title,
+.vp-doc .custom-block.note .custom-block-title,
+.vp-doc .custom-block.tip .custom-block-title,
+.vp-doc .custom-block.important .custom-block-title,
+.vp-doc .custom-block.warning .custom-block-title,
+.vp-doc .custom-block.caution .custom-block-title,
+.vp-doc .custom-block.danger .custom-block-title,
+.vp-doc .custom-block.details .custom-block-title {
+    margin-left: 1.25em;
+}
+
+.vp-doc .custom-block:before {
+    content: '';
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    position: absolute;
+    margin: 0.15em 0 0 -0.15em;
+}
+
+.vp-doc .custom-block.info,
+.vp-doc .custom-block.note {
+    --svg: url('https://api.iconify.design/ic:round-info.svg');
+    border-left-color: var(--vp-c-text-2);
+    color: var(--vp-c-text-2);
+}
+
+.vp-doc .custom-block.info .custom-block-title,
+.vp-doc .custom-block.info:before,
+.vp-doc .custom-block.note .custom-block-title,
+.vp-doc .custom-block.note:before {
+    color: var(--vp-c-text-1);
+}
+
+.vp-doc .custom-block.tip {
+    --svg: url('https://api.iconify.design/ic:round-info.svg');
+    border-left-color: var(--vp-c-green-1);
+    color: var(--vp-c-green-2);
+    background-color: var(--vp-c-green-soft);
+}
+
+.vp-doc .custom-block.tip .custom-block-title,
+.vp-doc .custom-block.tip:before {
+    color: var(--vp-c-green-1);
+}
+
+.vp-doc .custom-block.tip code {
+    color: var(--vp-c-green-1);
+    background-color: var(--vp-c-green-soft);
+}
+
+.vp-doc .custom-block.tip a {
+    color: var(--vp-c-green-1);
+}
+
+.vp-doc .custom-block.warning,
+.vp-doc .custom-block.caution,
+.vp-doc .custom-block.danger {
+    --svg: url('https://api.iconify.design/ic:round-warning.svg');
+    border-left-color: var(--vp-c-warning-1);
+    color: var(--vp-c-warning-2);
+}
+
+.vp-doc .custom-block.warning .custom-block-title,
+.vp-doc .custom-block.warning:before,
+.vp-doc .custom-block.caution .custom-block-title,
+.vp-doc .custom-block.caution:before,
+.vp-doc .custom-block.danger .custom-block-title,
+.vp-doc .custom-block.danger:before {
+    color: var(--vp-c-warning-1);
+}
+
+.vp-doc .custom-block.warning.danger,
+.vp-doc .custom-block.warning.caution,
+.vp-doc .custom-block.caution.danger,
+.vp-doc .custom-block.caution.caution,
+.vp-doc .custom-block.danger.danger,
+.vp-doc .custom-block.danger.caution {
+    border-left-color: var(--vp-c-danger-1);
+    color: var(--vp-c-danger-2);
+}
+
+.vp-doc .custom-block.warning.danger .custom-block-title,
+.vp-doc .custom-block.warning.danger:before,
+.vp-doc .custom-block.warning.caution .custom-block-title,
+.vp-doc .custom-block.warning.caution:before,
+.vp-doc .custom-block.caution.danger .custom-block-title,
+.vp-doc .custom-block.caution.danger:before,
+.vp-doc .custom-block.caution.caution .custom-block-title,
+.vp-doc .custom-block.caution.caution:before,
+.vp-doc .custom-block.danger.danger .custom-block-title,
+.vp-doc .custom-block.danger.danger:before,
+.vp-doc .custom-block.danger.caution .custom-block-title,
+.vp-doc .custom-block.danger.caution:before {
+    color: var(--vp-c-danger-1);
+}
+
+.vp-doc .custom-block.important {
+    --svg: url('https://api.iconify.design/ic:round-info.svg');
+    border-left-color: var(--vp-c-important-1);
+    color: var(--vp-c-important-2);
+}
+
+.vp-doc .custom-block.important .custom-block-title,
+.vp-doc .custom-block.important:before {
+    color: var(--vp-c-important-1);
+}
+
+.vp-doc .custom-block.details {
+    border-left-color: var(--vp-c-text-2);
+}
+
+.vp-doc .custom-block.details p {
+    color: var(--vp-c-text-2);
+}
+
+.vp-doc .custom-block.details:before {
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3C/svg%3E");
+}
+
+/**
+ * Component: doc
+ * -------------------------------------------------------------------------- */
+
+.vp-doc a {
+    -webkit-text-decoration: underline solid;
+    text-decoration: underline solid;
+    text-underline-offset: 4px;
+}
+
+.vp-doc a:hover {
+    -webkit-text-decoration: underline solid;
+    text-decoration: underline solid;
+}
+
+/**
+ * Component: home-links
+ * -------------------------------------------------------------------------- */
+
+a.lumen {
+    text-align: center;
+    border-radius: 24px;
+    padding: 0 24px;
+    line-height: 46px;
+    font-size: 16px;
+    background-color: var(--vp-c-default-3);
+}
+
+a.lumen:hover {
+    background-color: var(--vp-c-default-2);
+}
+
+a.lumen:active {
+    background-color: var(--vp-c-default-1);
+}
+
+a.lumen.theo::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-right: 0.5em;
+    transform: translateY(7px);
+    background-image: url('https://i.theojs.cn/avatar.png');
+}
+
+@keyframes ping {
+
+    15%,
+    to {
+        transform: scale(1.25, 2);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    a.lumen.theo {
+        max-width: 320px;
+        line-height: 1.5em;
+        white-space: normal;
+        display: block;
+        padding-bottom: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(225deg, var(--c-yellow-2) 30%, var(--c-green-1));
+    --vp-home-hero-image-background-image: -webkit-linear-gradient(45deg, var(--c-yellow-2) 65%, var(--c-green-1) 30%);
+    --vp-home-hero-image-filter: blur(40px);
+}
+
+@media (min-width: 640px) {
+    :root {
+        --vp-home-hero-image-filter: blur(56px);
+    }
+}
+
+@media (min-width: 960px) {
+    :root {
+        --vp-home-hero-image-filter: blur(72px);
+    }
+}
+
+html.dark:root {
+    --vp-home-hero-name-background: -webkit-linear-gradient(45deg, var(--c-yellow-2) 30%, var(--c-green-1));
+}
+
+/**
+ * Component: picture
+ * -------------------------------------------------------------------------- */
+
+:root:not(.dark) .dark-only,
+:root:is(.dark) .light-only,
+:root:not(.dark) img[src$='#dark'],
+:root:is(.dark) img[src$='#light'] {
+    display: none;
+}
+
+/* image subtitle */
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 0.5rem;
+}
+
+figure figcaption {
+    margin: 0.5rem 0;
+    color: var(--vp-c-text-3);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+figure figcaption a {
+    color: var(--vp-c-text-3) !important;
+}
