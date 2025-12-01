@@ -56,8 +56,8 @@ importers:
         specifier: ^2.13.1
         version: 2.13.1
       vite:
-        specifier: npm:rolldown-vite@^7.2.8
-        version: rolldown-vite@7.2.8(@types/node@24.10.1)(esbuild@0.25.12)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2)
+        specifier: npm:rolldown-vite@^7.2.9
+        version: rolldown-vite@7.2.9(@types/node@24.10.1)(esbuild@0.25.12)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2)
       vitepress:
         specifier: 2.0.0-alpha.13
         version: 2.0.0-alpha.13(@types/node@24.10.1)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.30.2)(oxc-minify@0.99.0)(postcss@8.5.6)(sass-embedded@1.93.3)(sass@1.93.3)(typescript@5.9.3)(yaml@2.8.2)
@@ -410,9 +410,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@iconify-json/simple-icons@1.2.60':
+  '@iconify-json/simple-icons@1.2.61':
     resolution:
-      { integrity: sha512-KlwLBKCdMCqfySdkAA+jehdUx6VSjnj6lvzQKus7HjkPSQ6QP58d6xiptkIp0jd/Hw3PW2++nRuGvCvSYaF0Mg== }
+      { integrity: sha512-DG6z3VEAxtDEw/SuZssZ/E8EvhjBhFQqxpEo3uckRKiia3LfZHmM4cx4RsaO2qX1Bqo9uadR5c/hYavvUQVuHw== }
 
   '@iconify/types@2.0.0':
     resolution:
@@ -906,33 +906,33 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/core@3.17.0':
+  '@shikijs/core@3.17.1':
     resolution:
-      { integrity: sha512-/HjeOnbc62C+n33QFNFrAhUlIADKwfuoS50Ht0pxujxP4QjZAlFp5Q+OkDo531SCTzivx5T18khwyBdKoPdkuw== }
+      { integrity: sha512-VWsduykcibGU0WMi66PflThDWyqEeTOiWdCRa3wmsZuishh+1PDSOh5gGxHdSrOtS+v1pmYaxodk/JNzwusElA== }
 
-  '@shikijs/engine-javascript@3.17.0':
+  '@shikijs/engine-javascript@3.17.1':
     resolution:
-      { integrity: sha512-WwF99xdP8KfuDrIbT4wxyypfhoIxMeeOCp1AiuvzzZ6JT5B3vIuoclL8xOuuydA6LBeeNXUF/XV5zlwwex1jlA== }
+      { integrity: sha512-Ars0DVJITQrkOl5Swwy+94NL/BlOi/w1NSFbPGkcsln7Dv+M2qHaVpNHwdtWCC4/arzvjuHbyWBUsWExDHPDLw== }
 
-  '@shikijs/engine-oniguruma@3.17.0':
+  '@shikijs/engine-oniguruma@3.17.1':
     resolution:
-      { integrity: sha512-flSbHZAiOZDNTrEbULY8DLWavu/TyVu/E7RChpLB4WvKX4iHMfj80C6Hi3TjIWaQtHOW0KC6kzMcuB5TO1hZ8Q== }
+      { integrity: sha512-fsXPy4va/4iblEGS+22nP5V08IwwBcM+8xHUzSON0QmHm29/AJRghA95w9VDnxuwp9wOdJxEhfPkKp6vqcsN+w== }
 
-  '@shikijs/langs@3.17.0':
+  '@shikijs/langs@3.17.1':
     resolution:
-      { integrity: sha512-icmur2n5Ojb+HAiQu6NEcIIJ8oWDFGGEpiqSCe43539Sabpx7Y829WR3QuUW2zjTM4l6V8Sazgb3rrHO2orEAw== }
+      { integrity: sha512-YTBVN+L2j7zBuOVjNZ2XiSNQEkm/7wZ1TSc5UO77GJPcg7Rk25WSscWA7y8pW7Bo25JIU0EWchUkq/UQjOJlJA== }
 
-  '@shikijs/themes@3.17.0':
+  '@shikijs/themes@3.17.1':
     resolution:
-      { integrity: sha512-/xEizMHLBmMHwtx4JuOkRf3zwhWD2bmG5BRr0IPjpcWpaq4C3mYEuTk/USAEglN0qPrTwEHwKVpSu/y2jhferA== }
+      { integrity: sha512-aohwwqNUB5h2ATfgrqYRPl8vyazqCiQ2wIV4xq+UzaBRHpqLMGSemkasK+vIEpl0YaendoaKUsDfpwhCqyHIaQ== }
 
-  '@shikijs/transformers@3.17.0':
+  '@shikijs/transformers@3.17.1':
     resolution:
-      { integrity: sha512-b14s8lPt/3K/PjtGgvdS4oU676Ke/ct9kdi6ksEb2rHzRVBAoWJeRwvDQcHASiiZbrDHlnnC8VnwL2Bw0T/nlw== }
+      { integrity: sha512-vFKeOSDAK2Ju631LS2wez0aGadtiZmRd+wiTsgb8xkBMAN3s2K++HPFAzoT6JJ5HcSyqUvASuUykEHEphdt9Cg== }
 
-  '@shikijs/types@3.17.0':
+  '@shikijs/types@3.17.1':
     resolution:
-      { integrity: sha512-wjLVfutYWVUnxAjsWEob98xgyaGv0dTEnMZDruU5mRjVN7szcGOfgO+997W2yR6odp+1PtSBNeSITRRTfUzK/g== }
+      { integrity: sha512-yUFLiCnZHHJ16KbVbt3B1EzBUadU3OVpq0PEyb301m5BbuFKApQYBzJGhrK48hH/tYWSjzwcj7BSmYbBc0zntQ== }
 
   '@shikijs/vscode-textmate@10.0.2':
     resolution:
@@ -2836,9 +2836,9 @@ packages:
     resolution:
       { integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA== }
 
-  rolldown-vite@7.2.8:
+  rolldown-vite@7.2.9:
     resolution:
-      { integrity: sha512-8wKihlF6EDF8grimwd7GPOhLkQkSIgj6Hlcp0CXhtO3HAXeUUqhgZmJmn07OF8e4PbTusMX6Yxmy1BptVRZsdw== }
+      { integrity: sha512-Y+Q1FpIgAkK2RiAdeS1SxcvDsJaru1JUANFo1aiFFtuGCckhltIowoC/JMU740tFZDTJA5vg5CAl1RzHExNR/w== }
     engines: { node: ^20.19.0 || >=22.12.0 }
     hasBin: true
     peerDependencies:
@@ -3056,9 +3056,9 @@ packages:
     engines: { node: '>=10' }
     hasBin: true
 
-  shiki@3.17.0:
+  shiki@3.17.1:
     resolution:
-      { integrity: sha512-lUZfWsyW7czITYTdo/Tb6ZM4VfyXlzmKYBQBjTz+pBzPPkP08RgIt00Ls1Z50Cl3SfwJsue6WbJeF3UgqLVI9Q== }
+      { integrity: sha512-KbAPJo6pQpfjupOg5HW0fk/OSmeBfzza2IjZ5XbNKbqhZaCoxro/EyOgesaLvTdyDfrsAUDA6L4q14sc+k9i7g== }
 
   signal-exit@3.0.7:
     resolution:
@@ -3353,9 +3353,9 @@ packages:
     resolution:
       { integrity: sha512-0JuVqOmL5v1jmEAlG5EBDR3XquxY8DWFQbFMprOXgaBB0F7Q/X9xWdEaQc59D8xzwkdUgXEMSSknTpriq95igg== }
 
-  vite@7.2.4:
+  vite@7.2.6:
     resolution:
-      { integrity: sha512-NL8jTlbo0Tn4dUEXEsUg8KeyG/Lkmc4Fnzb8JXN/Ykm9G4HNImjtABMJgkQoVjOBN/j2WAwDTRytdqJbZsah7w== }
+      { integrity: sha512-tI2l/nFHC5rLh7+5+o7QjKjSR04ivXDF4jcgV0f/bTQ+OJiITy5S6gaynVsEM+7RqzufMnVbIon6Sr5x1SDYaQ== }
     engines: { node: ^20.19.0 || >=22.12.0 }
     hasBin: true
     peerDependencies:
@@ -3762,7 +3762,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.12':
     optional: true
 
-  '@iconify-json/simple-icons@1.2.60':
+  '@iconify-json/simple-icons@1.2.61':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -4028,38 +4028,38 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.53.3':
     optional: true
 
-  '@shikijs/core@3.17.0':
+  '@shikijs/core@3.17.1':
     dependencies:
-      '@shikijs/types': 3.17.0
+      '@shikijs/types': 3.17.1
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
       hast-util-to-html: 9.0.5
 
-  '@shikijs/engine-javascript@3.17.0':
+  '@shikijs/engine-javascript@3.17.1':
     dependencies:
-      '@shikijs/types': 3.17.0
+      '@shikijs/types': 3.17.1
       '@shikijs/vscode-textmate': 10.0.2
       oniguruma-to-es: 4.3.4
 
-  '@shikijs/engine-oniguruma@3.17.0':
+  '@shikijs/engine-oniguruma@3.17.1':
     dependencies:
-      '@shikijs/types': 3.17.0
+      '@shikijs/types': 3.17.1
       '@shikijs/vscode-textmate': 10.0.2
 
-  '@shikijs/langs@3.17.0':
+  '@shikijs/langs@3.17.1':
     dependencies:
-      '@shikijs/types': 3.17.0
+      '@shikijs/types': 3.17.1
 
-  '@shikijs/themes@3.17.0':
+  '@shikijs/themes@3.17.1':
     dependencies:
-      '@shikijs/types': 3.17.0
+      '@shikijs/types': 3.17.1
 
-  '@shikijs/transformers@3.17.0':
+  '@shikijs/transformers@3.17.1':
     dependencies:
-      '@shikijs/core': 3.17.0
-      '@shikijs/types': 3.17.0
+      '@shikijs/core': 3.17.1
+      '@shikijs/types': 3.17.1
 
-  '@shikijs/types@3.17.0':
+  '@shikijs/types@3.17.1':
     dependencies:
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
@@ -4144,10 +4144,10 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-vue@6.0.2(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.2(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.50
-      vite: 7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2)
+      vite: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2)
       vue: 3.5.25(typescript@5.9.3)
 
   '@vue/compiler-core@3.5.25':
@@ -5683,7 +5683,7 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rolldown-vite@7.2.8(@types/node@24.10.1)(esbuild@0.25.12)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2):
+  rolldown-vite@7.2.9(@types/node@24.10.1)(esbuild@0.25.12)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2):
     dependencies:
       '@oxc-project/runtime': 0.99.0
       fdir: 6.5.0(picomatch@4.0.3)
@@ -5867,14 +5867,14 @@ snapshots:
 
   semver@7.7.3: {}
 
-  shiki@3.17.0:
+  shiki@3.17.1:
     dependencies:
-      '@shikijs/core': 3.17.0
-      '@shikijs/engine-javascript': 3.17.0
-      '@shikijs/engine-oniguruma': 3.17.0
-      '@shikijs/langs': 3.17.0
-      '@shikijs/themes': 3.17.0
-      '@shikijs/types': 3.17.0
+      '@shikijs/core': 3.17.1
+      '@shikijs/engine-javascript': 3.17.1
+      '@shikijs/engine-oniguruma': 3.17.1
+      '@shikijs/langs': 3.17.1
+      '@shikijs/themes': 3.17.1
+      '@shikijs/types': 3.17.1
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
 
@@ -6092,7 +6092,7 @@ snapshots:
 
   viewerjs@1.11.7: {}
 
-  vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2):
+  vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6136,12 +6136,12 @@ snapshots:
     dependencies:
       '@docsearch/css': 4.3.2
       '@docsearch/js': 4.3.2
-      '@iconify-json/simple-icons': 1.2.60
-      '@shikijs/core': 3.17.0
-      '@shikijs/transformers': 3.17.0
-      '@shikijs/types': 3.17.0
+      '@iconify-json/simple-icons': 1.2.61
+      '@shikijs/core': 3.17.1
+      '@shikijs/transformers': 3.17.1
+      '@shikijs/types': 3.17.1
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 6.0.2(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))
+      '@vitejs/plugin-vue': 6.0.2(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))
       '@vue/devtools-api': 8.0.5
       '@vue/shared': 3.5.25
       '@vueuse/core': 14.1.0(vue@3.5.25(typescript@5.9.3))
@@ -6149,8 +6149,8 @@ snapshots:
       focus-trap: 7.6.6
       mark.js: 8.11.1
       minisearch: 7.2.0
-      shiki: 3.17.0
-      vite: 7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2)
+      shiki: 3.17.1
+      vite: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.93.3)(sass@1.93.3)(yaml@2.8.2)
       vue: 3.5.25(typescript@5.9.3)
     optionalDependencies:
       oxc-minify: 0.99.0
