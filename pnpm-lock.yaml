@@ -1752,9 +1752,9 @@ packages:
       { integrity: sha512-6jvvn/12IC4quLBL1KNokxC7wWTvYncaVUYSoxWw7YykPLuRrnv4qdHcSOywOI5RpkOVGeQRtWM8/q+G6W6qfQ== }
     engines: { node: '>= 8' }
 
-  focus-trap@7.6.6:
+  focus-trap@7.7.0:
     resolution:
-      { integrity: sha512-v/Z8bvMCajtx4mEXmOo7QEsIzlIOqRXTIwgUfsFOF9gEsespdbD0AkPIka1bSXZ8Y8oZ+2IVDQZePkTfEHZl7Q== }
+      { integrity: sha512-DJJDHpEgoSbP8ZE1MNeU2IzCpfFyFdNZZRilqmfH2XiQsPK6PtD8AfJqWzEBudUQB2yHwZc5iq54rjTaGQ+ljw== }
 
   form-data-encoder@1.7.2:
     resolution:
@@ -4218,13 +4218,13 @@ snapshots:
       '@vueuse/shared': 14.1.0(vue@3.5.26(typescript@5.9.3))
       vue: 3.5.26(typescript@5.9.3)
 
-  '@vueuse/integrations@14.1.0(focus-trap@7.6.6)(fuse.js@7.0.0)(vue@3.5.26(typescript@5.9.3))':
+  '@vueuse/integrations@14.1.0(focus-trap@7.7.0)(fuse.js@7.0.0)(vue@3.5.26(typescript@5.9.3))':
     dependencies:
       '@vueuse/core': 14.1.0(vue@3.5.26(typescript@5.9.3))
       '@vueuse/shared': 14.1.0(vue@3.5.26(typescript@5.9.3))
       vue: 3.5.26(typescript@5.9.3)
     optionalDependencies:
-      focus-trap: 7.6.6
+      focus-trap: 7.7.0
       fuse.js: 7.0.0
 
   '@vueuse/metadata@14.1.0': {}
@@ -4728,7 +4728,7 @@ snapshots:
       micromatch: 4.0.8
       resolve-dir: 1.0.1
 
-  focus-trap@7.6.6:
+  focus-trap@7.7.0:
     dependencies:
       tabbable: 6.3.0
 
@@ -6135,8 +6135,8 @@ snapshots:
       '@vue/devtools-api': 8.0.5
       '@vue/shared': 3.5.26
       '@vueuse/core': 14.1.0(vue@3.5.26(typescript@5.9.3))
-      '@vueuse/integrations': 14.1.0(focus-trap@7.6.6)(fuse.js@7.0.0)(vue@3.5.26(typescript@5.9.3))
-      focus-trap: 7.6.6
+      '@vueuse/integrations': 14.1.0(focus-trap@7.7.0)(fuse.js@7.0.0)(vue@3.5.26(typescript@5.9.3))
+      focus-trap: 7.7.0
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 3.20.0
