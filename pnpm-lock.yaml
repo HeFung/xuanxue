@@ -20,8 +20,8 @@ importers:
         specifier: ^6.4.5
         version: 6.4.5(vue@3.5.26(typescript@5.9.3))
       '@trivago/prettier-plugin-sort-imports':
-        specifier: ^6.0.0
-        version: 6.0.0(@vue/compiler-sfc@3.5.26)(prettier@3.7.4)
+        specifier: ^6.0.1
+        version: 6.0.1(@vue/compiler-sfc@3.5.26)(prettier@3.7.4)
       canvas-confetti:
         specifier: ^1.9.4
         version: 1.9.4
@@ -1125,9 +1125,9 @@ packages:
     resolution:
       { integrity: sha512-ed8xR9o49SbO1n+3tvttvoGBNYAIA+ICp7s1Mlw2MJdTwvMCblTsRiLuOlh4Rv5+9WtfR9TZsOe4bRPhRjtIqg== }
 
-  '@trivago/prettier-plugin-sort-imports@6.0.0':
+  '@trivago/prettier-plugin-sort-imports@6.0.1':
     resolution:
-      { integrity: sha512-Xarx55ow0R8oC7ViL5fPmDsg1EBa1dVhyZFVbFXNtPPJyW2w9bJADIla8YFSaNG9N06XfcklA9O9vmw4noNxkQ== }
+      { integrity: sha512-6B13DCWDfAfh4AEJ43gRgeCSAQmlKG5LHqHzHc0lbUwgBy0rX7o41US+46Fd4XiXBx+JDGEz3NBadCbUls0dUQ== }
     engines: { node: '>= 20' }
     peerDependencies:
       '@vue/compiler-sfc': 3.x
@@ -4478,7 +4478,7 @@ snapshots:
     transitivePeerDependencies:
       - vue
 
-  '@trivago/prettier-plugin-sort-imports@6.0.0(@vue/compiler-sfc@3.5.26)(prettier@3.7.4)':
+  '@trivago/prettier-plugin-sort-imports@6.0.1(@vue/compiler-sfc@3.5.26)(prettier@3.7.4)':
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
