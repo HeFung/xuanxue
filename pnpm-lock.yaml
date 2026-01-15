@@ -21,7 +21,7 @@ importers:
         version: 6.4.5(vue@3.5.26(typescript@5.9.3))
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^6.0.2
-        version: 6.0.2(@vue/compiler-sfc@3.5.26)(prettier@3.7.4)
+        version: 6.0.2(@vue/compiler-sfc@3.5.26)(prettier@3.8.0)
       canvas-confetti:
         specifier: ^1.9.4
         version: 1.9.4
@@ -41,14 +41,14 @@ importers:
         specifier: ^0.108.0
         version: 0.108.0
       prettier:
-        specifier: 3.7.4
-        version: 3.7.4
+        specifier: 3.8.0
+        version: 3.8.0
       prettier-plugin-packagejson:
         specifier: ^2.5.21
-        version: 2.5.21(prettier@3.7.4)
+        version: 2.5.21(prettier@3.8.0)
       prettier-plugin-sort-json:
         specifier: 4.2.0
-        version: 4.2.0(prettier@3.7.4)
+        version: 4.2.0(prettier@3.8.0)
       sass-embedded:
         specifier: ^1.97.2
         version: 1.97.2
@@ -2951,9 +2951,9 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier@3.7.4:
+  prettier@3.8.0:
     resolution:
-      { integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA== }
+      { integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA== }
     engines: { node: '>=14' }
     hasBin: true
 
@@ -4487,7 +4487,7 @@ snapshots:
     transitivePeerDependencies:
       - vue
 
-  '@trivago/prettier-plugin-sort-imports@6.0.2(@vue/compiler-sfc@3.5.26)(prettier@3.7.4)':
+  '@trivago/prettier-plugin-sort-imports@6.0.2(@vue/compiler-sfc@3.5.26)(prettier@3.8.0)':
     dependencies:
       '@babel/generator': 7.28.6
       '@babel/parser': 7.28.6
@@ -4497,7 +4497,7 @@ snapshots:
       lodash-es: 4.17.22
       minimatch: 9.0.5
       parse-imports-exports: 0.2.4
-      prettier: 3.7.4
+      prettier: 3.8.0
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.26
     transitivePeerDependencies:
@@ -6027,17 +6027,17 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@2.5.21(prettier@3.7.4):
+  prettier-plugin-packagejson@2.5.21(prettier@3.8.0):
     dependencies:
       sort-package-json: 3.5.0
     optionalDependencies:
-      prettier: 3.7.4
+      prettier: 3.8.0
 
-  prettier-plugin-sort-json@4.2.0(prettier@3.7.4):
+  prettier-plugin-sort-json@4.2.0(prettier@3.8.0):
     dependencies:
-      prettier: 3.7.4
+      prettier: 3.8.0
 
-  prettier@3.7.4: {}
+  prettier@3.8.0: {}
 
   pretty-bytes@7.1.0: {}
 
