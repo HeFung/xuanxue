@@ -44,8 +44,8 @@ importers:
         specifier: 3.8.0
         version: 3.8.0
       prettier-plugin-packagejson:
-        specifier: ^2.5.21
-        version: 2.5.21(prettier@3.8.0)
+        specifier: ^2.5.22
+        version: 2.5.22(prettier@3.8.0)
       prettier-plugin-sort-json:
         specifier: 4.2.0
         version: 4.2.0(prettier@3.8.0)
@@ -2042,9 +2042,9 @@ packages:
       { integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g== }
     engines: { node: '>= 0.4' }
 
-  git-hooks-list@4.1.1:
+  git-hooks-list@4.2.1:
     resolution:
-      { integrity: sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA== }
+      { integrity: sha512-WNvqJjOxxs/8ZP9+DWdwWJ7cDsd60NHf39XnD82pDVrKO5q7xfPqpkK6hwEAmBa/ZSEE4IOoR75EzbbIuwGlMw== }
 
   git-raw-commits@4.0.0:
     resolution:
@@ -2935,9 +2935,9 @@ packages:
       { integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg== }
     engines: { node: ^10 || ^12 || >=14 }
 
-  prettier-plugin-packagejson@2.5.21:
+  prettier-plugin-packagejson@2.5.22:
     resolution:
-      { integrity: sha512-d9ivsysb1SeRaKDhjf6Hi7jBGnP4TVsh7DeVi8N5HtHJ5vwD7YHcQIuy6jRkr2qGW/VKbrEVDWVMODuqcZuz8Q== }
+      { integrity: sha512-G6WalmoUssKF8ZXkni0+n4324K+gG143KPysSQNW+FrR0XyNb3BdRxchGC/Q1FE/F702p7/6KU7r4mv0WSWbzA== }
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -3304,9 +3304,9 @@ packages:
     resolution:
       { integrity: sha512-SOiEnthkJKPv2L6ec6HMwhUcN0/lppkeYuN1x63PbyPRrgSPIuBJCiYxYyvWRTtjMlOi14vQUCGUJqS6PLVm8g== }
 
-  sort-package-json@3.5.0:
+  sort-package-json@3.6.0:
     resolution:
-      { integrity: sha512-moY4UtptUuP5sPuu9H9dp8xHNel7eP5/Kz/7+90jTvC0IOiPH2LigtRM/aSFSxreaWoToHUVUpEV4a2tAs2oKQ== }
+      { integrity: sha512-fyJsPLhWvY7u2KsKPZn1PixbXp+1m7V8NWqU8CvgFRbMEX41Ffw1kD8n0CfJiGoaSfoAvbrqRRl/DcHO8omQOQ== }
     engines: { node: '>=20' }
     hasBin: true
 
@@ -5236,7 +5236,7 @@ snapshots:
       dunder-proto: 1.0.1
       es-object-atoms: 1.1.1
 
-  git-hooks-list@4.1.1: {}
+  git-hooks-list@4.2.1: {}
 
   git-raw-commits@4.0.0:
     dependencies:
@@ -6027,9 +6027,9 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@2.5.21(prettier@3.8.0):
+  prettier-plugin-packagejson@2.5.22(prettier@3.8.0):
     dependencies:
-      sort-package-json: 3.5.0
+      sort-package-json: 3.6.0
     optionalDependencies:
       prettier: 3.8.0
 
@@ -6339,11 +6339,11 @@ snapshots:
 
   sort-object-keys@2.1.0: {}
 
-  sort-package-json@3.5.0:
+  sort-package-json@3.6.0:
     dependencies:
       detect-indent: 7.0.2
       detect-newline: 4.0.1
-      git-hooks-list: 4.1.1
+      git-hooks-list: 4.2.1
       is-plain-obj: 4.1.0
       semver: 7.7.3
       sort-object-keys: 2.1.0
