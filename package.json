@@ -36,7 +36,7 @@
     "cz-vinyl": "^2.5.4",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
-    "oxc-minify": "^0.108.0",
+    "oxc-minify": "^0.110.0",
     "prettier": "3.8.0",
     "prettier-plugin-packagejson": "^2.5.22",
     "prettier-plugin-sort-json": "4.2.0",
@@ -46,7 +46,7 @@
     "vitepress": "2.0.0-alpha.13",
     "vitepress-plugin-image-viewer": "^1.1.6",
     "vitepress-plugin-llms": "^1.10.0",
-    "vue": "^3.5.26"
+    "vue": "^3.5.27"
   },
   "engines": {
     "node": ">=20"
