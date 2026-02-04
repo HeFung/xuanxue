@@ -45,7 +45,7 @@
     "vite": "npm:rolldown-vite@^7.3.1",
     "vitepress": "2.0.0-alpha.13",
     "vitepress-plugin-image-viewer": "^1.1.6",
-    "vitepress-plugin-llms": "^1.10.0",
+    "vitepress-plugin-llms": "^1.11.0",
     "vue": "^3.5.27"
   },
   "engines": {
