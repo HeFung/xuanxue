@@ -208,13 +208,13 @@ packages:
       { integrity: sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw== }
     engines: { node: '>=v18' }
 
-  '@docsearch/css@4.5.3':
+  '@docsearch/css@4.5.4':
     resolution:
-      { integrity: sha512-kUpHaxn0AgI3LQfyzTYkNUuaFY4uEz/Ym9/N/FvyDE+PzSgZsCyDH9jE49B6N6f1eLCm9Yp64J9wENd6vypdxA== }
+      { integrity: sha512-gzO4DJwyM9c4YEPHwaLV1nUCDC2N6yoh0QJj44dce2rcfN71mB+jpu3+F+Y/KMDF1EKV0C3m54leSWsraE94xg== }
 
-  '@docsearch/js@4.5.3':
+  '@docsearch/js@4.5.4':
     resolution:
-      { integrity: sha512-rcBiUMCXbZLqrLIT6F6FDcrG/tyvM2WM0zum6NPbIiQNDQxbSgmNc+/bToS0rxBsXaxiU64esiWoS02WqrWLsg== }
+      { integrity: sha512-jEBsIklNTevznLZouB0y6SZcaT897gRHnGTzCcH32ibPZRVj/9FyuAM2LUTk61sFdOY79LH4V9rYsIdOe6Wq2g== }
 
   '@emnapi/core@1.8.1':
     resolution:
@@ -3656,9 +3656,9 @@ snapshots:
       conventional-commits-parser: 6.2.1
       picocolors: 1.1.1
 
-  '@docsearch/css@4.5.3': {}
+  '@docsearch/css@4.5.4': {}
 
-  '@docsearch/js@4.5.3': {}
+  '@docsearch/js@4.5.4': {}
 
   '@emnapi/core@1.8.1':
     dependencies:
@@ -6089,8 +6089,8 @@ snapshots:
 
   vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.31.1)(oxc-minify@0.112.0)(postcss@8.5.6)(sass-embedded@1.97.3)(sass@1.97.3)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
-      '@docsearch/css': 4.5.3
-      '@docsearch/js': 4.5.3
+      '@docsearch/css': 4.5.4
+      '@docsearch/js': 4.5.4
       '@iconify-json/simple-icons': 1.2.69
       '@shikijs/core': 3.22.0
       '@shikijs/transformers': 3.22.0
