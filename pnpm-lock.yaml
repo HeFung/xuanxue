@@ -410,9 +410,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@iconify-json/simple-icons@1.2.70':
+  '@iconify-json/simple-icons@1.2.71':
     resolution:
-      { integrity: sha512-CYNRCgN6nBTjN4dNkrBCjHXNR2e4hQihdsZUs/afUNFOWLSYjfihca4EFN05rRvDk4Xoy2n8tym6IxBZmcn+Qg== }
+      { integrity: sha512-rNoDFbq1fAYiEexBvrw613/xiUOPEu5MKVV/X8lI64AgdTzLQUUemr9f9fplxUMPoxCBP2rWzlhOEeTHk/Sf0Q== }
 
   '@iconify/types@2.0.0':
     resolution:
@@ -1207,9 +1207,9 @@ packages:
       { integrity: sha512-o0lWjt+/oZH1/4q3DJxTf5kdkgNbSmoLRXIiGznW225A6hq9/9IkOO1DiAijIsxGYJS6psFC+58+IzkD1EerBA== }
     engines: { node: '>=18' }
 
-  '@waline/client@3.12.0':
+  '@waline/client@3.12.1':
     resolution:
-      { integrity: sha512-emNPHGEXiUozu6JhngXwOGzazXX+KzR4/xol0wluF6Cwlx2YACtaXscBsQFcuP4+sbRrD26SOCwGio0yl8NAGQ== }
+      { integrity: sha512-yfGZkK5AxxESioP3qjyGDBDfvk7f8N7D/YG+cgltBc1c/i0YZQzLKJ0J3RecLv6XGSYtfZgjtokCPFpV/eprVA== }
     engines: { node: '>=18' }
 
   abort-controller@3.0.0:
@@ -2549,9 +2549,9 @@ packages:
       { integrity: sha512-VP79XUPxV2CigYP3jWwAUFSku2aKqBH7uTAapFWCBqutsbmDo96KY5o8uh6U+/YSIn5OxJnXp73beVkpqMIGhA== }
     engines: { node: '>=18' }
 
-  minimatch@10.2.0:
+  minimatch@10.2.1:
     resolution:
-      { integrity: sha512-ugkC31VaVg9cF0DFVoADH12k6061zNZkZON+aX8AWsR9GhPcErkcMBceb6znR8wLERM2AkkOxy2nWRLpT9Jq5w== }
+      { integrity: sha512-MClCe8IL5nRRmawL6ib/eT4oLyeKMGCghibcDWK+J0hh0Q8kqSdia6BvbRMVk6mPa6WqUa5uR2oxt6C5jd533A== }
     engines: { node: 20 || >=22 }
 
   minimatch@3.1.2:
@@ -3764,7 +3764,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.3':
     optional: true
 
-  '@iconify-json/simple-icons@1.2.70':
+  '@iconify-json/simple-icons@1.2.71':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -4086,7 +4086,7 @@ snapshots:
   '@theojs/lumen@6.4.5(vue@3.5.28(typescript@5.9.3))':
     dependencies:
       '@iconify/vue': 5.0.0(vue@3.5.28(typescript@5.9.3))
-      '@waline/client': 3.12.0(typescript@5.9.3)
+      '@waline/client': 3.12.1(typescript@5.9.3)
       iconify-icon: 3.0.2
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -4255,7 +4255,7 @@ snapshots:
 
   '@waline/api@1.0.0': {}
 
-  '@waline/client@3.12.0(typescript@5.9.3)':
+  '@waline/client@3.12.1(typescript@5.9.3)':
     dependencies:
       '@vueuse/core': 14.2.1(vue@3.5.28(typescript@5.9.3))
       '@waline/api': 1.0.0
@@ -5410,7 +5410,7 @@ snapshots:
 
   mimic-function@5.0.1: {}
 
-  minimatch@10.2.0:
+  minimatch@10.2.1:
     dependencies:
       brace-expansion: 5.0.2
 
@@ -6093,7 +6093,7 @@ snapshots:
       markdown-title: 1.0.2
       mdast-util-from-markdown: 2.0.2
       millify: 6.1.0
-      minimatch: 10.2.0
+      minimatch: 10.2.1
       path-to-regexp: 6.3.0
       picocolors: 1.1.1
       pretty-bytes: 7.1.0
@@ -6109,7 +6109,7 @@ snapshots:
     dependencies:
       '@docsearch/css': 4.5.4
       '@docsearch/js': 4.5.4
-      '@iconify-json/simple-icons': 1.2.70
+      '@iconify-json/simple-icons': 1.2.71
       '@shikijs/core': 3.22.0
       '@shikijs/transformers': 3.22.0
       '@shikijs/types': 3.22.0
