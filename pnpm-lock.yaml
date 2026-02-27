@@ -1320,9 +1320,13 @@ packages:
     resolution:
       { integrity: sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg== }
 
-  brace-expansion@5.0.3:
+  brace-expansion@2.0.2:
     resolution:
-      { integrity: sha512-fy6KJm2RawA5RcHkLa1z/ScpBeA762UF9KmZQxwIbDtRJrgLzM10depAiEQ+CXYcoiqW1/m96OAAoke2nE9EeA== }
+      { integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ== }
+
+  brace-expansion@5.0.4:
+    resolution:
+      { integrity: sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg== }
     engines: { node: 18 || 20 || >=22 }
 
   braces@3.0.3:
@@ -2544,9 +2548,9 @@ packages:
     resolution:
       { integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w== }
 
-  minimatch@9.0.8:
+  minimatch@9.0.9:
     resolution:
-      { integrity: sha512-reYkDYtj/b19TeqbNZCV4q9t+Yxylf/rYBsLb42SXJatTv4/ylq5lEiAmhA/IToxO7NI2UzNMghHoHuaqDkAjw== }
+      { integrity: sha512-OBwBN9AL4dqmETlpS2zasx+vTeWclWzkblfZk7KTA5j3jeOONz/tRCnZomUyvNg83wL5Zv9Ss6HMJXAgL8R2Yg== }
     engines: { node: '>=16 || 14 >=14.17' }
 
   minimist@1.2.7:
@@ -4084,7 +4088,7 @@ snapshots:
       '@babel/types': 7.29.0
       javascript-natural-sort: 0.7.1
       lodash-es: 4.17.23
-      minimatch: 9.0.8
+      minimatch: 9.0.9
       parse-imports-exports: 0.2.4
       prettier: 3.8.1
     optionalDependencies:
@@ -4327,7 +4331,11 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  brace-expansion@5.0.3:
+  brace-expansion@2.0.2:
+    dependencies:
+      balanced-match: 1.0.2
+
+  brace-expansion@5.0.4:
     dependencies:
       balanced-match: 4.0.4
 
@@ -5386,15 +5394,15 @@ snapshots:
 
   minimatch@10.2.4:
     dependencies:
-      brace-expansion: 5.0.3
+      brace-expansion: 5.0.4
 
   minimatch@3.1.5:
     dependencies:
       brace-expansion: 1.1.12
 
-  minimatch@9.0.8:
+  minimatch@9.0.9:
     dependencies:
-      brace-expansion: 5.0.3
+      brace-expansion: 2.0.2
 
   minimist@1.2.7: {}
 
