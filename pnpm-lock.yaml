@@ -44,8 +44,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       prettier-plugin-packagejson:
-        specifier: ^3.0.1
-        version: 3.0.1(prettier@3.8.1)
+        specifier: ^3.0.2
+        version: 3.0.2(prettier@3.8.1)
       prettier-plugin-sort-json:
         specifier: 4.2.0
         version: 4.2.0(prettier@3.8.1)
@@ -1498,14 +1498,14 @@ packages:
     resolution:
       { integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg== }
 
-  conventional-changelog-angular@8.2.0:
+  conventional-changelog-angular@8.3.0:
     resolution:
-      { integrity: sha512-4YB1zEXqB17oBI8yRsAs1T+ZhbdsOgJqkl6Trz+GXt/eKf1e4jnA0oW+sOd9BEENzEViuNW0DNoFFjSf3CeC5Q== }
+      { integrity: sha512-DOuBwYSqWzfwuRByY9O4oOIvDlkUCTDzfbOgcSbkY+imXXj+4tmrEFao3K+FxemClYfYnZzsvudbwrhje9VHDA== }
     engines: { node: '>=18' }
 
-  conventional-changelog-conventionalcommits@9.2.0:
+  conventional-changelog-conventionalcommits@9.3.0:
     resolution:
-      { integrity: sha512-fCf+ODjseueTV09wVBoC0HXLi3OyuBJ+HfE3L63Khxqnr99f9nUcnQh3a15lCWHlGLihyZShW/mVVkBagr9JvQ== }
+      { integrity: sha512-kYFx6gAyjSIMwNtASkI3ZE99U1fuVDJr0yTYgVy+I2QG46zNZfl2her+0+eoviG82c5WQvW1jMt1eOQTeJLodA== }
     engines: { node: '>=18' }
 
   conventional-commit-types@3.0.0:
@@ -2369,9 +2369,9 @@ packages:
     peerDependencies:
       marked: '>=4 <18'
 
-  marked@17.0.3:
+  marked@17.0.4:
     resolution:
-      { integrity: sha512-jt1v2ObpyOKR8p4XaUJVk3YWRJ5n+i4+rjQopxvV32rSndTJXvIzuUdWWIy/1pFQMkQmvTXawzDNqOH/CUmx6A== }
+      { integrity: sha512-NOmVMM+KAokHMvjWmC5N/ZOvgmSWuqJB8FoYI019j4ogb/PeRMKoKIjReZ2w3376kkA8dSJIP8uD993Kxc0iRQ== }
     engines: { node: '>= 20' }
     hasBin: true
 
@@ -2716,10 +2716,9 @@ packages:
       { integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg== }
     engines: { node: ^10 || ^12 || >=14 }
 
-  prettier-plugin-packagejson@3.0.1:
+  prettier-plugin-packagejson@3.0.2:
     resolution:
-      { integrity: sha512-dGMMVROGzziTdLlFNoOhJyDafp29ynxWLam7WPFX8O/iR0osRedi7ZAAz+Hy2//pXhLUrB9QvIQZjxpynQJzsw== }
-    deprecated: this version has been deprecated
+      { integrity: sha512-kmoj3hEynXwoHDo8ZhmWAIjRBoQWCDUVackiWfSDWdgD0rS3LGB61T9zoVbume/cotYdCoadUh4sqViAmXvpBQ== }
     peerDependencies:
       prettier: ^3
     peerDependenciesMeta:
@@ -3099,9 +3098,9 @@ packages:
     resolution:
       { integrity: sha512-SOiEnthkJKPv2L6ec6HMwhUcN0/lppkeYuN1x63PbyPRrgSPIuBJCiYxYyvWRTtjMlOi14vQUCGUJqS6PLVm8g== }
 
-  sort-package-json@3.6.0:
+  sort-package-json@3.6.1:
     resolution:
-      { integrity: sha512-fyJsPLhWvY7u2KsKPZn1PixbXp+1m7V8NWqU8CvgFRbMEX41Ffw1kD8n0CfJiGoaSfoAvbrqRRl/DcHO8omQOQ== }
+      { integrity: sha512-Chgejw1+10p2D0U2tB7au1lHtz6TkFnxmvZktyBCRyV0GgmF6nl1IxXxAsPtJVsUyg/fo+BfCMAVVFUVRkAHrQ== }
     engines: { node: '>=20' }
     hasBin: true
 
@@ -3550,7 +3549,7 @@ snapshots:
   '@commitlint/config-conventional@20.4.3':
     dependencies:
       '@commitlint/types': 20.4.3
-      conventional-changelog-conventionalcommits: 9.2.0
+      conventional-changelog-conventionalcommits: 9.3.0
 
   '@commitlint/config-validator@20.4.3':
     dependencies:
@@ -3605,7 +3604,7 @@ snapshots:
   '@commitlint/parse@20.4.3':
     dependencies:
       '@commitlint/types': 20.4.3
-      conventional-changelog-angular: 8.2.0
+      conventional-changelog-angular: 8.3.0
       conventional-commits-parser: 6.3.0
 
   '@commitlint/read@20.4.3':
@@ -4232,8 +4231,8 @@ snapshots:
       '@vueuse/core': 14.2.1(vue@3.5.29(typescript@5.9.3))
       '@waline/api': 1.1.0
       autosize: 6.0.1
-      marked: 17.0.3
-      marked-highlight: 2.2.3(marked@17.0.3)
+      marked: 17.0.4
+      marked-highlight: 2.2.3(marked@17.0.4)
       recaptcha-v3: 1.11.3
       vue: 3.5.29(typescript@5.9.3)
     transitivePeerDependencies:
@@ -4453,11 +4452,11 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  conventional-changelog-angular@8.2.0:
+  conventional-changelog-angular@8.3.0:
     dependencies:
       compare-func: 2.0.0
 
-  conventional-changelog-conventionalcommits@9.2.0:
+  conventional-changelog-conventionalcommits@9.3.0:
     dependencies:
       compare-func: 2.0.0
 
@@ -5141,11 +5140,11 @@ snapshots:
 
   markdown-title@1.0.2: {}
 
-  marked-highlight@2.2.3(marked@17.0.3):
+  marked-highlight@2.2.3(marked@17.0.4):
     dependencies:
-      marked: 17.0.3
+      marked: 17.0.4
 
-  marked@17.0.3: {}
+  marked@17.0.4: {}
 
   math-intrinsics@1.1.0: {}
 
@@ -5526,9 +5525,9 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@3.0.1(prettier@3.8.1):
+  prettier-plugin-packagejson@3.0.2(prettier@3.8.1):
     dependencies:
-      sort-package-json: 3.6.0
+      sort-package-json: 3.6.1
     optionalDependencies:
       prettier: 3.8.1
 
@@ -5842,7 +5841,7 @@ snapshots:
 
   sort-object-keys@2.1.0: {}
 
-  sort-package-json@3.6.0:
+  sort-package-json@3.6.1:
     dependencies:
       detect-indent: 7.0.2
       detect-newline: 4.0.1
