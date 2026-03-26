@@ -221,13 +221,13 @@ packages:
       conventional-commits-parser:
         optional: true
 
-  '@docsearch/css@4.6.1':
+  '@docsearch/css@4.6.2':
     resolution:
-      { integrity: sha512-rA+ql4MLDgUpPs3YlVuqJt8GtujXzOFdYSV/OzCO4NxXKwLgASR+/nX7qFmnJCy3g0MVthEZS2IeZzJjYzWuGg== }
+      { integrity: sha512-fH/cn8BjEEdM2nJdjNMHIvOVYupG6AIDtFVDgIZrNzdCSj4KXr9kd+hsehqsNGYjpUjObeKYKvgy/IwCb1jZYQ== }
 
-  '@docsearch/js@4.6.1':
+  '@docsearch/js@4.6.2':
     resolution:
-      { integrity: sha512-6EB/xuM7Nz5yi9yPcdv6aYtGbyOA54+WfVnBWKsb7Ms7XmLOiNgVCCDbKPt5iyS1Q9ityCyskbfl94Ty56Dwrw== }
+      { integrity: sha512-qj1yoxl3y4GKoK7+VM6fq/rQqPnvUmg3IKzJ9x0VzN14QVzdB/SG/J6VfV1BWT5RcPUFxIcVwoY1fwHM2fSRRw== }
 
   '@emnapi/core@1.9.1':
     resolution:
@@ -3659,9 +3659,9 @@ snapshots:
     optionalDependencies:
       conventional-commits-parser: 6.3.0
 
-  '@docsearch/css@4.6.1': {}
+  '@docsearch/css@4.6.2': {}
 
-  '@docsearch/js@4.6.1': {}
+  '@docsearch/js@4.6.2': {}
 
   '@emnapi/core@1.9.1':
     dependencies:
@@ -6085,8 +6085,8 @@ snapshots:
 
   vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.32.0)(oxc-minify@0.121.0)(postcss@8.5.8)(sass-embedded@1.98.0)(sass@1.98.0)(typescript@5.9.3)(yaml@2.8.3):
     dependencies:
-      '@docsearch/css': 4.6.1
-      '@docsearch/js': 4.6.1
+      '@docsearch/css': 4.6.2
+      '@docsearch/js': 4.6.2
       '@iconify-json/simple-icons': 1.2.75
       '@shikijs/core': 3.23.0
       '@shikijs/transformers': 3.23.0
