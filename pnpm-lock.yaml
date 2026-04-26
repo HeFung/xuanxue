@@ -60,7 +60,7 @@ importers:
         version: rolldown-vite@7.3.1(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@18.19.130)(esbuild@0.27.7)(jiti@2.6.1)(sass-embedded@1.99.0)(sass@1.99.0)(yaml@2.8.3)
       vitepress:
         specifier: 2.0.0-alpha.13
-        version: 2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.32.0)(oxc-minify@0.127.0)(postcss@8.5.10)(sass-embedded@1.99.0)(sass@1.99.0)(typescript@5.9.3)(yaml@2.8.3)
+        version: 2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.32.0)(oxc-minify@0.127.0)(postcss@8.5.12)(sass-embedded@1.99.0)(sass@1.99.0)(typescript@5.9.3)(yaml@2.8.3)
       vitepress-plugin-image-viewer:
         specifier: ^1.1.6
         version: 1.1.6
@@ -2721,9 +2721,9 @@ packages:
       { integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A== }
     engines: { node: '>=12' }
 
-  postcss@8.5.10:
+  postcss@8.5.12:
     resolution:
-      { integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ== }
+      { integrity: sha512-W62t/Se6rA0Az3DfCL0AqJwXuKwBeYg6nOaIgzP+xZ7N5BFCI7DYi1qs6ygUYT6rvfi6t9k65UMLJC+PHZpDAA== }
     engines: { node: ^10 || ^12 || >=14 }
 
   prettier-plugin-packagejson@3.0.2:
@@ -4186,7 +4186,7 @@ snapshots:
       '@vue/shared': 3.5.33
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.10
+      postcss: 8.5.12
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.33':
@@ -5546,7 +5546,7 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  postcss@8.5.10:
+  postcss@8.5.12:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
@@ -5660,7 +5660,7 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.4)
       lightningcss: 1.32.0
       picomatch: 4.0.4
-      postcss: 8.5.10
+      postcss: 8.5.12
       rolldown: 1.0.0-beta.53(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
       tinyglobby: 0.2.16
     optionalDependencies:
@@ -6062,7 +6062,7 @@ snapshots:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.10
+      postcss: 8.5.12
       rollup: 4.60.2
       tinyglobby: 0.2.16
     optionalDependencies:
@@ -6097,7 +6097,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.32.0)(oxc-minify@0.127.0)(postcss@8.5.10)(sass-embedded@1.99.0)(sass@1.99.0)(typescript@5.9.3)(yaml@2.8.3):
+  vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.32.0)(oxc-minify@0.127.0)(postcss@8.5.12)(sass-embedded@1.99.0)(sass@1.99.0)(typescript@5.9.3)(yaml@2.8.3):
     dependencies:
       '@docsearch/css': 4.6.2
       '@docsearch/js': 4.6.2
@@ -6119,7 +6119,7 @@ snapshots:
       vue: 3.5.33(typescript@5.9.3)
     optionalDependencies:
       oxc-minify: 0.127.0
-      postcss: 8.5.10
+      postcss: 8.5.12
     transitivePeerDependencies:
       - '@types/node'
       - async-validator
