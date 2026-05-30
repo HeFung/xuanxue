@@ -35,8 +35,8 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^17.0.5
-        version: 17.0.5
+        specifier: ^17.0.6
+        version: 17.0.6
       oxc-minify:
         specifier: ^0.133.0
         version: 0.133.0
@@ -2274,9 +2274,9 @@ packages:
     resolution:
       { integrity: sha512-wVoTjP4Q6R0NW5hiZkVJaFZPWgtXfoGF+6LucL3/FtiNjmcHhYjEr5f1Kqjirc1nBW07J/ZuRFumqr2oqccEWg== }
 
-  lint-staged@17.0.5:
+  lint-staged@17.0.6:
     resolution:
-      { integrity: sha512-d12yC+/e8RhBjZtaxZn71FyrgU/P5e+uAPifhCLwdosQZP/zamSdKRWDC30ocVIbzDKiFG1McHc/LUgB92GIPw== }
+      { integrity: sha512-xTowloQX5tfs9TC6SUHnKuBSx/TUx+9w39zRTbVrB70DxUJZh3OZWnOa0LbejxVX9adYuioGJoP4dpQ04QHehg== }
     engines: { node: '>=22.22.1' }
     hasBin: true
 
@@ -3200,6 +3200,11 @@ packages:
   through@2.3.8:
     resolution:
       { integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg== }
+
+  tinyexec@1.2.2:
+    resolution:
+      { integrity: sha512-M/Q0B2cp4K7kynaT/vnED1j8TlLY+Pp7C6Wl2bl/7u/F0mUVwdyOpwomQb8JpYLitHUssAJRmLZdMCGsrx7i+g== }
+    engines: { node: '>=18' }
 
   tinyexec@1.2.3:
     resolution:
@@ -5070,12 +5075,12 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
-  lint-staged@17.0.5:
+  lint-staged@17.0.6:
     dependencies:
       listr2: 10.2.1
       picomatch: 4.0.4
       string-argv: 0.3.2
-      tinyexec: 1.2.3
+      tinyexec: 1.2.2
     optionalDependencies:
       yaml: 2.9.0
 
@@ -5930,6 +5935,8 @@ snapshots:
   tabbable@6.4.0: {}
 
   through@2.3.8: {}
+
+  tinyexec@1.2.2: {}
 
   tinyexec@1.2.3: {}
 
