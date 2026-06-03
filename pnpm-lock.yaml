@@ -1223,14 +1223,14 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  '@waline/api@1.1.0':
+  '@waline/api@1.1.1':
     resolution:
-      { integrity: sha512-mLBwZ6iicZHx1VUzthO+pk+2uD6byPRHjK+OI0pLH7PP+Qx3Gtx9xuiKL6Xxi58WrcAi8CIN2HyGVJbkNESwnA== }
-    engines: { node: '>=18' }
+      { integrity: sha512-UkwxVCnEFgh7CJkdsndd9nUY9zL4bJTbamAb2MsjmaC0/RO+zOV3XaWGQt1TwOxdBz2xb2UipcyFrvZRNrwSmg== }
+    engines: { node: '>=22' }
 
-  '@waline/client@3.15.0':
+  '@waline/client@3.15.1':
     resolution:
-      { integrity: sha512-g0DlaxkMZo2k1ra+Om28zcr7i9mNEP3/3YIPx++ZgXEtFShrwrnWZ7f6gtYOsgWGVJAA1Z0aZ4Xzk8lLhZXORA== }
+      { integrity: sha512-AClEnLRgZnntX9ASo7nAa+TQBJwhMtp+cLa3yPx9eycKo9c18XUrHaR0QMJBNz+XtuBkX4a91Ci457B+9in3jA== }
     engines: { node: '>=22' }
 
   abort-controller@3.0.0:
@@ -4068,7 +4068,7 @@ snapshots:
   '@theojs/lumen@6.4.7(vue@3.5.35(typescript@6.0.3))':
     dependencies:
       '@iconify/vue': 5.0.1(vue@3.5.35(typescript@6.0.3))
-      '@waline/client': 3.15.0(typescript@6.0.3)
+      '@waline/client': 3.15.1(typescript@6.0.3)
       iconify-icon: 3.0.2
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -4230,12 +4230,12 @@ snapshots:
     dependencies:
       vue: 3.5.35(typescript@6.0.3)
 
-  '@waline/api@1.1.0': {}
+  '@waline/api@1.1.1': {}
 
-  '@waline/client@3.15.0(typescript@6.0.3)':
+  '@waline/client@3.15.1(typescript@6.0.3)':
     dependencies:
       '@vueuse/core': 14.3.0(vue@3.5.35(typescript@6.0.3))
-      '@waline/api': 1.1.0
+      '@waline/api': 1.1.1
       autosize: 6.0.1
       marked: 18.0.4
       marked-highlight: 2.2.4(marked@18.0.4)
