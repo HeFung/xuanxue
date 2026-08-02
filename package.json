@@ -29,7 +29,7 @@
     "@commitlint/cli": "^21.2.1",
     "@commitlint/config-conventional": "^21.2.0",
     "@commitlint/types": "^21.2.0",
-    "@theojs/lumen": "^6.4.7",
+    "@theojs/lumen": "^7.0.1",
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "canvas-confetti": "^1.9.4",
     "commitizen": "^4.3.2",
