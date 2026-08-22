@@ -3148,9 +3148,9 @@ packages:
     resolution:
       { integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q== }
 
-  viewerjs@1.11.9:
+  viewerjs@1.12.0:
     resolution:
-      { integrity: sha512-ooK2OUVd2C59pmkWW5cX1OiGX9s2ATXZNlruhOYc43fkh4vgYXwCdLEwXBoP6sNNPHQbJQzMq0/vhOzlgFWBng== }
+      { integrity: sha512-eQrV7FvqXj2Ysavd9LINI6bFAvXtw5YbdlMtdIo6Bmrv25hEOBeXoOX9E7cJwYuFAOPFzmppFvDn02QNHB120w== }
 
   vite@7.3.6:
     resolution:
@@ -5704,7 +5704,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  viewerjs@1.11.9: {}
+  viewerjs@1.12.0: {}
 
   vite@7.3.6(@types/node@18.19.130)(jiti@2.6.1)(lightningcss@1.33.0)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0):
     dependencies:
@@ -5725,7 +5725,7 @@ snapshots:
 
   vitepress-plugin-image-viewer@1.1.6:
     dependencies:
-      viewerjs: 1.11.9
+      viewerjs: 1.12.0
 
   vitepress-plugin-llms@1.13.5:
     dependencies:
