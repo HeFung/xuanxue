@@ -18,7 +18,7 @@ importers:
         version: 21.2.0
       '@theojs/lumen':
         specifier: ^7.0.1
-        version: 7.0.1(vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.26)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0))(vue@3.5.42)
+        version: 7.0.1(vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.28)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0))(vue@3.5.42)
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^6.0.2
         version: 6.0.2(@vue/compiler-sfc@3.5.42)(prettier@3.9.6)
@@ -60,7 +60,7 @@ importers:
         version: rolldown-vite@7.3.1(@types/node@18.19.130)(jiti@2.6.1)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0)
       vitepress:
         specifier: 2.0.0-alpha.13
-        version: 2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.26)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0)
+        version: 2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.28)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0)
       vitepress-plugin-image-viewer:
         specifier: ^1.1.6
         version: 1.1.6
@@ -2571,9 +2571,9 @@ packages:
       { integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA== }
     engines: { node: '>=12' }
 
-  postcss@8.5.26:
+  postcss@8.5.28:
     resolution:
-      { integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ== }
+      { integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A== }
     engines: { node: ^10 || ^12 || >=14 }
 
   prettier-plugin-packagejson@3.0.2:
@@ -3046,9 +3046,9 @@ packages:
     resolution:
       { integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg== }
 
-  tinyexec@1.3.0:
+  tinyexec@1.3.1:
     resolution:
-      { integrity: sha512-QKAl9m8gWWGHV8jZcPeym6j+XULi6tOf1mT83WYJ4Lk2ytW/uwAWkrP0uFsdoYMdueVJ0qs26wZ+23xeB4ibNQ== }
+      { integrity: sha512-GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA== }
     engines: { node: '>=18' }
 
   tinyglobby@0.2.17:
@@ -3375,7 +3375,7 @@ snapshots:
       '@commitlint/load': 21.2.2(@types/node@18.19.130)
       '@commitlint/read': 21.2.1(conventional-commits-parser@7.1.2)
       '@commitlint/types': 21.2.0
-      tinyexec: 1.3.0
+      tinyexec: 1.3.1
       yargs: 18.1.0
     transitivePeerDependencies:
       - '@types/node'
@@ -3445,7 +3445,7 @@ snapshots:
       '@commitlint/top-level': 21.2.0
       '@commitlint/types': 21.2.0
       '@conventional-changelog/git-client': 3.1.2(conventional-commits-parser@7.1.2)
-      tinyexec: 1.3.0
+      tinyexec: 1.3.1
     transitivePeerDependencies:
       - conventional-commits-filter
       - conventional-commits-parser
@@ -3893,11 +3893,11 @@ snapshots:
 
   '@simple-libs/stream-utils@2.0.0': {}
 
-  '@theojs/lumen@7.0.1(vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.26)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0))(vue@3.5.42)':
+  '@theojs/lumen@7.0.1(vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.28)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0))(vue@3.5.42)':
     dependencies:
       '@iconify/vue': 5.0.1(vue@3.5.42)
       iconify-icon: 3.0.2
-      vitepress: 2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.26)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0)
+      vitepress: 2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.28)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0)
       vue: 3.5.42
 
   '@trivago/prettier-plugin-sort-imports@6.0.2(@vue/compiler-sfc@3.5.42)(prettier@3.9.6)':
@@ -3989,7 +3989,7 @@ snapshots:
       '@vue/shared': 3.5.42
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.26
+      postcss: 8.5.28
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.42':
@@ -4820,7 +4820,7 @@ snapshots:
     dependencies:
       picomatch: 4.0.7
       string-argv: 0.3.2
-      tinyexec: 1.3.0
+      tinyexec: 1.3.1
     optionalDependencies:
       yaml: 2.9.0
 
@@ -5222,7 +5222,7 @@ snapshots:
 
   picomatch@4.0.7: {}
 
-  postcss@8.5.26:
+  postcss@8.5.28:
     dependencies:
       nanoid: 3.3.18
       picocolors: 1.1.1
@@ -5327,7 +5327,7 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.7)
       lightningcss: 1.33.0
       picomatch: 4.0.7
-      postcss: 8.5.26
+      postcss: 8.5.28
       rolldown: 1.0.0-beta.53
       tinyglobby: 0.2.17
     optionalDependencies:
@@ -5618,7 +5618,7 @@ snapshots:
 
   through@2.3.8: {}
 
-  tinyexec@1.3.0: {}
+  tinyexec@1.3.1: {}
 
   tinyglobby@0.2.17:
     dependencies:
@@ -5711,7 +5711,7 @@ snapshots:
       esbuild: 0.28.2
       fdir: 6.5.0(picomatch@4.0.7)
       picomatch: 4.0.7
-      postcss: 8.5.26
+      postcss: 8.5.28
       rollup: 4.63.1
       tinyglobby: 0.2.17
     optionalDependencies:
@@ -5746,7 +5746,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.26)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0):
+  vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.148.0)(postcss@8.5.28)(sass-embedded@1.103.1)(sass@1.103.1)(yaml@2.9.0):
     dependencies:
       '@docsearch/css': 4.7.0
       '@docsearch/js': 4.7.0
@@ -5768,7 +5768,7 @@ snapshots:
       vue: 3.5.42
     optionalDependencies:
       oxc-minify: 0.148.0
-      postcss: 8.5.26
+      postcss: 8.5.28
     transitivePeerDependencies:
       - '@types/node'
       - async-validator
