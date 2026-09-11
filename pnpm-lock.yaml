@@ -65,8 +65,8 @@ importers:
         specifier: ^1.1.6
         version: 1.1.6
       vitepress-plugin-llms:
-        specifier: ^1.13.5
-        version: 1.13.5
+        specifier: ^1.14.0
+        version: 1.14.0
       vue:
         specifier: ^3.5.42
         version: 3.5.42
@@ -123,9 +123,9 @@ packages:
       { integrity: sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg== }
     engines: { node: '>=6.9.0' }
 
-  '@bufbuild/protobuf@2.14.1':
+  '@bufbuild/protobuf@2.15.0':
     resolution:
-      { integrity: sha512-agRJn3+EJDUe8AvxTx/LnHA/GErvLE62pSaSk7+MwFOtOv8eWBu/qCq2qoZjBjVZ3C2aiFJCveuSs17KMkYGOw== }
+      { integrity: sha512-DAheWUkVr/SJTWCc+lg9dhY0eN4SaWlf4+bG1KzHeXbnqt0AfB/NX0Z+VunGlM1ki1B4zVvye27MpKh/svySUA== }
 
   '@commitlint/cli@21.2.2':
     resolution:
@@ -3197,9 +3197,9 @@ packages:
     resolution:
       { integrity: sha512-ZfYy1s/bXju6vGVsE/5gPXT449+KaXZ6ZIPAvcmPM07VmC7Bv57bCvFar2II7C2EjexxfPQsxUh70vSBbe14kQ== }
 
-  vitepress-plugin-llms@1.13.5:
+  vitepress-plugin-llms@1.14.0:
     resolution:
-      { integrity: sha512-CTiDkKRs0h64J5rdiICdHmXH4pM1gBu2S/MJ+OxSAm+vM72srBkHr86ZubzfMJbGJh4AMVKff4R3oCu8etI1ww== }
+      { integrity: sha512-Qb42p9pYoRlMRbv+Yvh3reS4GInyr+ToU3G1tEC1Euz+gyBNywXkZIQPV/AoltizaakAeuI89Bkhkd7Y0jaM/w== }
     engines: { node: '>=18' }
 
   vitepress@2.0.0-alpha.13:
@@ -3365,7 +3365,7 @@ snapshots:
       '@babel/helper-string-parser': 7.29.7
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@bufbuild/protobuf@2.14.1': {}
+  '@bufbuild/protobuf@2.15.0': {}
 
   '@commitlint/cli@21.2.2(@types/node@18.19.130)(conventional-commits-parser@7.1.2)':
     dependencies:
@@ -5469,7 +5469,7 @@ snapshots:
 
   sass-embedded@1.104.0:
     dependencies:
-      '@bufbuild/protobuf': 2.14.1
+      '@bufbuild/protobuf': 2.15.0
       colorjs.io: 0.7.1
       immutable: 5.1.9
       rxjs: 7.8.2
@@ -5727,7 +5727,7 @@ snapshots:
     dependencies:
       viewerjs: 1.13.0
 
-  vitepress-plugin-llms@1.13.5:
+  vitepress-plugin-llms@1.14.0:
     dependencies:
       '@11ty/gray-matter': 2.1.0
       markdown-it: 14.3.1
