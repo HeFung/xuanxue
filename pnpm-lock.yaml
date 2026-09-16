@@ -21,7 +21,7 @@ importers:
         version: 7.0.1(vitepress@2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.150.0)(postcss@8.5.28)(sass-embedded@1.104.1)(sass@1.104.1)(yaml@2.9.1))(vue@3.5.42)
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^6.0.2
-        version: 6.0.2(@vue/compiler-sfc@3.5.42)(prettier@3.9.6)
+        version: 6.0.2(@vue/compiler-sfc@3.5.42)(prettier@3.9.7)
       canvas-confetti:
         specifier: ^1.9.4
         version: 1.9.4
@@ -41,14 +41,14 @@ importers:
         specifier: ^0.150.0
         version: 0.150.0
       prettier:
-        specifier: 3.9.6
-        version: 3.9.6
+        specifier: 3.9.7
+        version: 3.9.7
       prettier-plugin-packagejson:
         specifier: ^3.0.2
-        version: 3.0.2(prettier@3.9.6)
+        version: 3.0.2(prettier@3.9.7)
       prettier-plugin-sort-json:
         specifier: 4.2.0
-        version: 4.2.0(prettier@3.9.6)
+        version: 4.2.0(prettier@3.9.7)
       sass-embedded:
         specifier: ^1.104.1
         version: 1.104.1
@@ -2592,9 +2592,9 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier@3.9.6:
+  prettier@3.9.7:
     resolution:
-      { integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g== }
+      { integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og== }
     engines: { node: '>=14' }
     hasBin: true
 
@@ -3900,7 +3900,7 @@ snapshots:
       vitepress: 2.0.0-alpha.13(@types/node@18.19.130)(fuse.js@7.0.0)(jiti@2.6.1)(lightningcss@1.33.0)(oxc-minify@0.150.0)(postcss@8.5.28)(sass-embedded@1.104.1)(sass@1.104.1)(yaml@2.9.1)
       vue: 3.5.42
 
-  '@trivago/prettier-plugin-sort-imports@6.0.2(@vue/compiler-sfc@3.5.42)(prettier@3.9.6)':
+  '@trivago/prettier-plugin-sort-imports@6.0.2(@vue/compiler-sfc@3.5.42)(prettier@3.9.7)':
     dependencies:
       '@babel/generator': 7.29.8
       '@babel/parser': 7.29.8
@@ -3910,7 +3910,7 @@ snapshots:
       lodash-es: 4.18.1
       minimatch: 9.0.9
       parse-imports-exports: 0.2.4
-      prettier: 3.9.6
+      prettier: 3.9.7
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.42
     transitivePeerDependencies:
@@ -5228,17 +5228,17 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@3.0.2(prettier@3.9.6):
+  prettier-plugin-packagejson@3.0.2(prettier@3.9.7):
     dependencies:
       sort-package-json: 3.7.1
     optionalDependencies:
-      prettier: 3.9.6
+      prettier: 3.9.7
 
-  prettier-plugin-sort-json@4.2.0(prettier@3.9.6):
+  prettier-plugin-sort-json@4.2.0(prettier@3.9.7):
     dependencies:
-      prettier: 3.9.6
+      prettier: 3.9.7
 
-  prettier@3.9.6: {}
+  prettier@3.9.7: {}
 
   pretty-bytes@7.1.3: {}
 
