@@ -26,9 +26,9 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.2",
-    "@commitlint/config-conventional": "^21.2.2",
-    "@commitlint/types": "^21.2.0",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@commitlint/types": "^21.2.3",
     "@theojs/lumen": "^7.0.1",
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "canvas-confetti": "^1.9.4",
